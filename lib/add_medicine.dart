@@ -21,7 +21,7 @@ class AddMedicinePage extends StatelessWidget {
           ),
           Expanded(
             child: ListView.builder(
-              itemCount: 5, // Replace with actual number of available medicines to add
+              itemCount: 5,
               itemBuilder: (context, index) {
                 return MedicineListItem();
               },
@@ -42,8 +42,8 @@ class MedicineListItem extends StatelessWidget {
       },
       child: Card(
         child: ListTile(
-          title: Text('Medicine Name'), // Replace with actual medicine name
-          subtitle: Text('Approved by Admin'), // You can add logic to check if approved by admin
+          title: Text('Medicine Name'),
+          subtitle: Text('Approved by Admin'),
         ),
       ),
     );
@@ -59,13 +59,12 @@ class MedicineListItem extends StatelessWidget {
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop(); // Close the dialog
+                Navigator.of(context).pop();
               },
               child: Text('Cancel'),
             ),
             TextButton(
               onPressed: () {
-                // Add medicine to stock list logic
                 Navigator.of(context).pop(); // Close the dialog
               },
               child: Text('Add'),

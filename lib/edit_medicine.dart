@@ -11,18 +11,16 @@ class EditMedicinePage extends StatelessWidget {
         padding: EdgeInsets.all(16.0),
         children: [
           // Text fields for editing medicine details
-          _buildTextField('Medicine ID', '12345'), // Replace with actual data
-          _buildTextField('Manufacturer', 'Manufacturer Name'), // Replace with actual data
-          _buildTextField('Medicine Name', 'Medicine Name'), // Replace with actual data
-          _buildTextField('Generic Name', 'Generic Name'), // Replace with actual data
-          _buildTextField('Pack Size', '10'), // Replace with actual data
-          _buildTextField('Price', '\$10.00'), // Replace with actual data
-          _buildTextField('Stock Available', '100'), // Replace with actual data
-          _buildTextField('Expiry Date', '2024-12-31'), // Replace with actual data
+          _buildTextField('Medicine ID', '12345'),
+          _buildTextField('Manufacturer', 'Manufacturer Name'),
+          _buildTextField('Medicine Name', 'Medicine Name'),
+          _buildTextField('Generic Name', 'Generic Name'),
+          _buildTextField('Pack Size', '10'),
+          _buildTextField('Price', '\$10.00'),
+          _buildTextField('Stock Available', '100'),
           SizedBox(height: 16.0),
           ElevatedButton(
             onPressed: () {
-              // Save edited medicine details and navigate back to About Medicine page
               Navigator.pop(context);
             },
             child: Text('Save'),

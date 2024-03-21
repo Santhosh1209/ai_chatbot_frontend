@@ -30,21 +30,21 @@ class CheckingStockPage extends StatelessWidget {
                     onTap: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => AboutMedicinePage()), // Replace DetailsPage() with your details page widget
+                        MaterialPageRoute(builder: (context) => AboutMedicinePage()),
                       );
                     },
                   child: Card(
                     child: ListTile(
                       leading: CircleAvatar(
-                        //backgroundImage: AssetImage('assets/medicine_icon.png'), // Replace with actual image
+                        //backgroundImage: AssetImage('assets/medicine_icon.png'),
                       ),
-                      title: Text('Medicine Name'), // Replace with actual medicine name
+                      title: Text('Medicine Name'),
                       subtitle: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text('Price: \$10.00'), // Replace with actual price
-                          Text('Available Stock: 100'), // Replace with actual stock
-                          Text('Demand: High'), // Replace with actual demand
+                          Text('Price: \$10.00'),
+                          Text('Available Stock: 100'),
+                          Text('Demand: High'),
                         ],
                       ),
                     ),
@@ -57,7 +57,7 @@ class CheckingStockPage extends StatelessWidget {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => AddMedicinePage()), // Replace DetailsPage() with your details page widget
+                MaterialPageRoute(builder: (context) => AddMedicinePage()),
               );
             },
             child: Icon(Icons.add),
