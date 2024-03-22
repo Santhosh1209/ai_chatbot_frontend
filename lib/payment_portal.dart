@@ -42,7 +42,7 @@ class _PaymentPortalState extends State<PaymentPortal> {
   void _openPaymentGateway() {
     var options = {
       'key': 'rzp_test_bRBL3c7YliH0ki',
-      'amount': 100, // paisa in INR)
+      'amount': 80000, // paisa in INR
       'name': 'Shiv Prakash',
       'description': 'Payment for Rolex',
       'prefill': {

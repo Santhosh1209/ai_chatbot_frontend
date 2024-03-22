@@ -27,6 +27,8 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   dialog_flowtter: ^0.3.3
+  web_socket_channel: ^2.4.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -53,6 +55,7 @@ flutter:
     - assets/mucinex.jpg
     - assets/quintizine.jpg
     - assets/zyliktitus2.jpg
+    - assets/doc.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

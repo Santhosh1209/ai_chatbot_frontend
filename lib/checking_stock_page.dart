@@ -1,3 +1,4 @@
+import 'package:ai_chatbox/payment_portal.dart';
 import 'package:flutter/material.dart';
 
 import 'about_medicine.dart';
@@ -111,6 +112,16 @@ class _CheckingStockPageState extends State<CheckingStockPage> {
               );
             },
             child: Icon(Icons.add),
+          ),
+          SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => PaymentPortal()),
+              );
+            },
+            child: Text('Proceed to Payment'),
           ),
         ],
       ),

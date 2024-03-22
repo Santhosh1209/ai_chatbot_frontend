@@ -1,3 +1,4 @@
+import 'package:ai_chatbox/booking_slot.dart';
 import 'package:ai_chatbox/pharmacy_order_history.dart';
 import 'package:ai_chatbox/purchase_history_user.dart';
 import 'package:ai_chatbox/your_cart.dart';
@@ -53,7 +54,7 @@ class HomePage extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => OrderHistoryPage()),
+                        MaterialPageRoute(builder: (context) => BookSeatPage()),
                       );
                     },
                     child: Text('Track Your Orders'),
