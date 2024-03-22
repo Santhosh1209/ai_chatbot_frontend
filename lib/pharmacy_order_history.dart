@@ -12,8 +12,8 @@ class OrderHistoryPage extends StatelessWidget {
         children: [
           _buildOrderItem('Dolo 650', '10', '1176', '+1234567890', '\$100.00', true),
           _buildOrderItem('Crocin', '5', '2654', '+9876543210', '\$50.00', false),
-          _buildOrderItem('Umesh pill', '2', '8355', '+1357924680', '\$20.00', true),
-          _buildOrderItem('Ganja', '3', '4766', '+1357924680', '\$30.00', null),
+          _buildOrderItem('Citrazine', '2', '8355', '+1357924680', '\$20.00', true),
+          _buildOrderItem('Vittal pill', '3', '4766', '+1357924680', '\$30.00', null),
           // Add more order items as needed
         ],
       ),

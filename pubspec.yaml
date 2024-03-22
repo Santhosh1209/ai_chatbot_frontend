@@ -48,6 +48,11 @@ flutter:
   assets:
     - assets/medicine_image.jpg
     - assets/pharmacy_image.jpg
+    - assets/citrazine.jpg
+    - assets/dextromethorphan.jpg
+    - assets/mucinex.jpg
+    - assets/quintizine.jpg
+    - assets/zyliktitus2.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

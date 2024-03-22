@@ -48,7 +48,7 @@ class AboutMedicinePage extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         _buildDetailRow('Medicine ID', '69420'),
-        _buildDetailRow('Manufacturer', 'Joe Mama'),
+        _buildDetailRow('Manufacturer', 'Yazhini medicals'),
         _buildDetailRow('Medicine Name', 'Paracetamol'),
         _buildDetailRow('Generic Name', 'Dolo 650'),
         _buildDetailRow('Pack Size', '10'),

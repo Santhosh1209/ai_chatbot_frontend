@@ -1,4 +1,5 @@
 import 'package:ai_chatbox/pharmacy_order_history.dart';
+import 'package:ai_chatbox/purchase_history_user.dart';
 import 'package:ai_chatbox/your_cart.dart';
 import 'package:flutter/material.dart';
 import 'checking_stock_page.dart';
@@ -52,7 +53,7 @@ class HomePage extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => YourCartPage()),
+                        MaterialPageRoute(builder: (context) => OrderHistoryPage()),
                       );
                     },
                     child: Text('Track Your Orders'),
@@ -67,6 +68,7 @@ class HomePage extends StatelessWidget {
   }
 
   Widget _buildDetailRow(String label, String value) {
+    //
     return Padding(
       padding: EdgeInsets.symmetric(vertical: 8.0),
       child: Row(
