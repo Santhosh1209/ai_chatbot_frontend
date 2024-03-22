@@ -41,13 +41,13 @@ class _PaymentPortalState extends State<PaymentPortal> {
 
   void _openPaymentGateway() {
     var options = {
-      'key': 'rzp_test_bRBL3c7YliH0ki', // Replace with your actual KEY_ID
-      'amount': 100, // Amount in smallest currency unit (e.g., paisa in INR)
+      'key': 'rzp_test_bRBL3c7YliH0ki',
+      'amount': 100, // paisa in INR)
       'name': 'Shiv Prakash',
       'description': 'Payment for Rolex',
       'prefill': {
-        'contact': '6942042069', // Replace with customer's phone number
-        'email': 'selva@bharathi.com', // Replace with customer's email
+        'contact': '6942042069',
+        'email': 'selva@bharathi.com',
       }
     };
 

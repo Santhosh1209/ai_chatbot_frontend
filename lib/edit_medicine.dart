@@ -11,10 +11,10 @@ class EditMedicinePage extends StatelessWidget {
         padding: EdgeInsets.all(16.0),
         children: [
           // Text fields for editing medicine details
-          _buildTextField('Medicine ID', '12345'),
-          _buildTextField('Manufacturer', 'Manufacturer Name'),
-          _buildTextField('Medicine Name', 'Medicine Name'),
-          _buildTextField('Generic Name', 'Generic Name'),
+          _buildTextField('Medicine ID', '69420'),
+          _buildTextField('Manufacturer', 'Joe Mama'),
+          _buildTextField('Medicine Name', 'Paracetamol'),
+          _buildTextField('Generic Name', 'Dolo 650'),
           _buildTextField('Pack Size', '10'),
           _buildTextField('Price', '\$10.00'),
           _buildTextField('Stock Available', '100'),

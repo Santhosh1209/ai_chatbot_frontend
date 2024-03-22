@@ -48,13 +48,13 @@ class AboutMedicinePage extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         _buildDetailRow('Medicine ID', '69420'),
-        _buildDetailRow('Manufacturer', 'Joe Mama'), // Replace with actual data
-        _buildDetailRow('Medicine Name', 'Paracetamol'), // Replace with actual data
-        _buildDetailRow('Generic Name', 'Dolo 650'), // Replace with actual data
-        _buildDetailRow('Pack Size', '10'), // Replace with actual data
-        _buildDetailRow('Price', '\$10.00'), // Replace with actual data
-        _buildDetailRow('Stock Available', '100'), // Replace with actual data
-        _buildDetailRow('Expiry Date', '2024-12-31'), // Replace with actual data
+        _buildDetailRow('Manufacturer', 'Joe Mama'),
+        _buildDetailRow('Medicine Name', 'Paracetamol'),
+        _buildDetailRow('Generic Name', 'Dolo 650'),
+        _buildDetailRow('Pack Size', '10'),
+        _buildDetailRow('Price', '\$10.00'),
+        _buildDetailRow('Stock Available', '100'),
+        _buildDetailRow('Expiry Date', '2024-12-31'),
       ],
     );
   }
